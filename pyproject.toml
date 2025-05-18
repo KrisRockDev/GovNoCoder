@@ -3,4 +3,12 @@ name = "govnocoder"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "flet[all]==0.27.6",
+    "pyperclip>=1.9.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "venv",
+]
